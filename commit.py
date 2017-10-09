@@ -5,5 +5,5 @@ origin = r.remote('origin')
 
 r.git.add('--all')
 r.index.commit("making new commit")
-origin.pull()
+#origin.pull()
 origin.push()
